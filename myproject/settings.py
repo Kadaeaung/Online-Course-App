@@ -29,6 +29,11 @@ DEBUG = True
 # <HINT> add your cloud host here
 ALLOWED_HOSTS = []
 
+# settings.py
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
 CSRF_TRUSTED_ORIGINS = ['https://*.cognitiveclass.ai']
 
 # Application definition
